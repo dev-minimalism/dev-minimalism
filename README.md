@@ -1,4 +1,4 @@
-<h1 align="center">👋, I'm Pink Spider</h1>
+<h1 align="center">👋, I'm Dev Minimalism</h1>
 
 <p align="center">
   Passionate about building metabus systems, fin tech & AI, exploring new technologies, and collaborating in open-source.
