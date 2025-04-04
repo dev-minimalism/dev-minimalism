@@ -13,7 +13,7 @@
 ---
 
 ### 💼 Organizations
-- 🔧 [Pink Spider](https://github.com/Pink-Spider) — Using Actual Official Repository
+- 🔧 [Pink Spider](https://github.com/Pink-Spider) — Using Actual My Official Repository
 - 📦 [Level Up Together](https://github.com/Level-Up-Together) — Private Side Project, Dev Leader
 
 ---
@@ -36,12 +36,23 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white)
 
 ---
+### 👥 Organization Contributions
+
+- 🔧 [Pink-Spider](https://github.com/Pink-Spider) – Core member  
+  → 주요 기여: `infra`, `auth`, `gateway`, `docs`  
+  ![Pink-Spider](https://img.shields.io/github/stars/Level-Up-Together/level-up-together-bff?label=level-up-together-bff&style=social)
+
+- 🔧 [Level-Up-Together](https://github.com/Level-Up-Together) – Core member  
+  → 주요 기여: `infra`, `auth`, `gateway`, `docs`  
+  ![Level-Up-Together Repo1](https://img.shields.io/github/stars/Level-Up-Together/level-up-together-bff?label=level-up-together-bff&style=social)
+---
+
 
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Pink-Spider&show_icons=true&theme=github_dark" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pink-Spider&layout=compact&theme=github_dark" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=dev-minimalism&show_icons=true&theme=github_dark" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-minimalism&layout=compact&theme=github_dark" height="150"/>
 </p>
 
 ---
