@@ -1,4 +1,4 @@
-<h1 align="center">Hi there 👋, I'm Pink Spider</h1>
+<h1 align="center">👋, I'm Pink Spider</h1>
 
 <p align="center">
   Passionate about building metabus systems, fin tech & AI, exploring new technologies, and collaborating in open-source.
@@ -14,7 +14,7 @@
 
 ### 💼 Organizations
 - 🔧 [Pink Spider](https://github.com/Pink-Spider) — Using Actual Official Repository
-- 📦 [Level Up Together](https://github.com/Level-Up-Together) — Dev Leader
+- 📦 [Level Up Together](https://github.com/Level-Up-Together) — Private Side Project, Dev Leader
 
 ---
 
@@ -40,8 +40,8 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=github_dark" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=github_dark" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Pink-Spider&show_icons=true&theme=github_dark" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pink-Spider&layout=compact&theme=github_dark" height="150"/>
 </p>
 
 ---
