@@ -1,7 +1,9 @@
 <h1 align="center">👋, I'm Dev Minimalism</h1>
 
-<p align="center">
-  Passionate about building metabus systems, fin tech & AI, exploring new technologies, and collaborating in open-source.
+<p align="center">  
+  A developer who believes less is more.
+  Focused on building **clean**, **efficient**, and **minimalist** software systems.
+  Passionate about building real & cyber connecting systems, fin tech & AI, exploring new technologies, and collaborating in open-source.
 </p>
 
 <p align="center">
