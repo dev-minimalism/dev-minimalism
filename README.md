@@ -56,18 +56,16 @@
 </p>
 
 ---
-<!--
+
 ### 🕸️ Snake Contribution Graph
 
 <p align="center">
-  <img src="https://github.com/your-username/your-username/raw/output/github-contribution-grid-snake.svg" alt="snake gif" />
+  <img src="https://github.com/dev-minimalism/dev-minimalism/raw/output/github-contribution-grid-snake.svg" alt="snake gif" />
 </p>
 
-> 🐍 이 애니메이션은 GitHub Actions로 자동 생성됩니다. 설치 방법도 알려드릴게요!
--->
 ---
 
-<!--### ⏱️ Weekly Coding Stats (via Wakatime)-->
+### ⏱️ Weekly Coding Stats (via Wakatime)
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
