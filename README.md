@@ -56,7 +56,7 @@
 </p>
 
 ---
-
+<!--
 ### 🕸️ Snake Contribution Graph
 
 <p align="center">
@@ -64,15 +64,14 @@
 </p>
 
 > 🐍 이 애니메이션은 GitHub Actions로 자동 생성됩니다. 설치 방법도 알려드릴게요!
-
+-->
 ---
 
-### ⏱️ Weekly Coding Stats (via Wakatime)
+<!--### ⏱️ Weekly Coding Stats (via Wakatime)-->
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
-> ⏱️ Wakatime 사용 중이라면 위 영역은 자동으로 업데이트됩니다.
 
 ---
 
