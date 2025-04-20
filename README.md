@@ -65,6 +65,8 @@
   <img src="https://github.com/dev-minimalism/dev-minimalism/raw/output/github-contribution-grid-snake.svg" alt="snake gif" />
 </p>
 
+![snake gif](https://github.com/your-public-repo/your-public-repo/raw/output/github-contribution-grid-snake.svg)
+
 ---
 
 ### ⏱️ Weekly Coding Stats (via Wakatime)
