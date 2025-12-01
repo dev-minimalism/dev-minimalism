@@ -61,17 +61,18 @@
 
 ### Related Organizations
 
-| Organization | Description |
-|-------------|-------------|
-| [Pink-Spider](https://github.com/Pink-Spider) | Personal Project Repository |
-| [Level-Up-Together](https://github.com/Level-Up-Together) | Business Project |
+| Organization                                              | Description                 |
+|-----------------------------------------------------------|-----------------------------|
+| [Pink-Spider](https://github.com/Pink-Spider)             | Personal Project Repository |
+| [Level-Up-Together](https://github.com/Level-Up-Together) | Business Project            |
 
 ---
 
 ### GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dev-minimalism&show_icons=true&theme=github_dark" height="150"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=dev-minimalism&show_icons=true&theme=github_dark" height="150"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-minimalism&layout=compact&theme=github_dark" height="150"/>
 </p>
 
 ---
