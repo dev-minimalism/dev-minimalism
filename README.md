@@ -38,6 +38,11 @@
 ![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=flat&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=flat&logo=react&logoColor=black)
 
+**Quant & Data**
+![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
+
 **DevOps**
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white)
@@ -46,10 +51,11 @@
 
 ### Focus Areas
 
+- **Quantitative Trading** — Algorithmic trading systems, backtesting frameworks, market data pipelines
+- **FinTech** — Real-time financial data processing, low-latency systems
 - Clean Architecture & Design Patterns
 - MSA and Event-Driven Architecture
 - Backend Optimization & Observability
-- Developer Experience (DX) Improvement
 
 ---
 
