@@ -77,6 +77,8 @@
 
 <p align="center">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=dev-minimalism&theme=github-dark&hide_border=true" alt="Activity Graph" />
+    <img src="https://ghchart.rshah.org/22863a/dev-minimalism" alt="GitHub Contributions" />
+</p>
 
 ---
 
