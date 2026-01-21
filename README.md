@@ -69,8 +69,13 @@
 ---
 
 ### GitHub Stats
-<p align="center">
+<!--<p align="center">
     <img src="./github-metrics.svg" alt="GitHub Metrics" />
+</p>-->
+
+<p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=dev-minimalism&show_icons=true&theme=github_dark" alt="GitHub Stats" height="150"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-minimalism&layout=compact&theme=github_dark" alt="Top Languages" height="150"/>
 </p>
 
 <p align="center">
