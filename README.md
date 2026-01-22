@@ -53,10 +53,6 @@
 
 - **Quantitative Trading** — Algorithmic trading systems, backtesting frameworks, market data pipelines
 - **FinTech** — Real-time financial data processing, low-latency systems
-- Clean Architecture & Design Patterns
-- MSA and Event-Driven Architecture
-- Backend Optimization & Observability
-
 ---
 
 ### Related Organizations
