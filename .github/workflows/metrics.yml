@@ -13,7 +13,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      # Pinned to the v3.34 commit (what @latest pointed to on 2026-10-15); bump deliberately after reviewing the release
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           # METRICS_TOKEN: classic PAT with repo + read:org so private org repos are counted
           token: ${{ secrets.METRICS_TOKEN }}
