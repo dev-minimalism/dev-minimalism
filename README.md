@@ -88,8 +88,8 @@
 
 ### GitHub Stats
 <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=dev-minimalism&show_icons=true&theme=github_dark&disable_animations=true" alt="GitHub Stats" height="150"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-minimalism&layout=compact&theme=github_dark&disable_animations=true" alt="Top Languages" height="150"/>
+    <!-- Rendered daily by .github/workflows/metrics.yml into the metrics-renders branch; covers owner, collaborator and organization repos -->
+    <img src="https://raw.githubusercontent.com/dev-minimalism/dev-minimalism/metrics-renders/github-metrics.svg" alt="GitHub Metrics across all organizations" width="480"/>
 </p>
 
 <p align="center">
