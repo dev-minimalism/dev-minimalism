@@ -33,10 +33,10 @@ jobs:
           # Count everything the user owns or contributes to across orgs; skip forks and non-code repos
           repositories_affiliations: owner, collaborator, organization_member
           repositories_forks: no
-          # metrics only ever fetches one page: it stops when a page returns fewer than `repositories`,
-          # so keep repositories == repositories_batch (max 100) to get the 100 most recently updated repos
-          repositories: 100
-          repositories_batch: 100
+          # metrics fetches a single page (it stops when a page returns fewer than `repositories`) and does not
+          # retry after a timeout. 100 repos exceeds GitHub's ~10s GraphQL timeout; 20 took 3.5s. Keep both equal.
+          repositories: 40
+          repositories_batch: 40
           repositories_skipped: >-
             dev-minimalism/dev-minimalism,
             dev-minimalism/dev-minimalism.github.io,
