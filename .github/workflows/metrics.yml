@@ -1,0 +1,58 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 15 * * *"        # 00:00 KST daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/metrics.yml"]
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # METRICS_TOKEN: classic PAT with repo + read:org so private org repos are counted
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: metrics-renders   # keeps daily bot commits off main
+          filename: github-metrics.svg
+
+          user: dev-minimalism
+          template: classic
+          base: header, activity
+          config_timezone: Asia/Seoul
+          config_display: regular
+
+          # Count everything the user owns or contributes to across orgs; skip forks and non-code repos
+          repositories_affiliations: owner, collaborator, organization_member
+          repositories_forks: no
+          repositories_skipped: >-
+            dev-minimalism/dev-minimalism,
+            dev-minimalism/dev-minimalism.github.io,
+            Pink-Spider/.github,
+            Pink-Spider/pink-spider.github.io,
+            Pink-Spider/chainwell-privacy,
+            Pink-Spider/firedom-privacy,
+            Pink-Spider/nonogram-privacy,
+            Pink-Spider/sudoku-privacy,
+            Pink-Spider/timesheet-privacy,
+            Level-Up-Together/.github,
+            Level-Up-Together/DOCS,
+            Level-Up-Together/dev.pink-spider.io,
+            Pink-Spider-Atelier/.github,
+            The-hitchhikers-guide-to-the-code/the-hitchhikers-guide-to-the-code.github.io
+
+          # Languages from GitHub's per-repo stats (no indepth clone analysis: it timed out in Jan 2026 and produced "Other")
+          plugin_languages: yes
+          plugin_languages_indepth: no
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 1%
+          plugin_languages_other: no
+          plugin_languages_details: percentage
+          plugin_languages_colors: github
+          plugin_languages_ignored: html, css, scss, shell, plpgsql, hcl, dockerfile, makefile, batchfile, powershell, jupyter notebook, tex, vim script
