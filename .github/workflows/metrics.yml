@@ -21,6 +21,8 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: metrics-renders   # keeps daily bot commits off main
           filename: github-metrics.svg
+          plugins_errors_fatal: yes
+          debug: yes
 
           user: dev-minimalism
           template: classic
@@ -31,21 +33,23 @@ jobs:
           # Count everything the user owns or contributes to across orgs; skip forks and non-code repos
           repositories_affiliations: owner, collaborator, organization_member
           repositories_forks: no
+          repositories: 200
+          repositories_batch: 20
           repositories_skipped: >-
             dev-minimalism/dev-minimalism,
             dev-minimalism/dev-minimalism.github.io,
-            Pink-Spider/.github,
-            Pink-Spider/pink-spider.github.io,
-            Pink-Spider/chainwell-privacy,
-            Pink-Spider/firedom-privacy,
-            Pink-Spider/nonogram-privacy,
-            Pink-Spider/sudoku-privacy,
-            Pink-Spider/timesheet-privacy,
-            Level-Up-Together/.github,
-            Level-Up-Together/DOCS,
-            Level-Up-Together/dev.pink-spider.io,
-            Pink-Spider-Atelier/.github,
-            The-hitchhikers-guide-to-the-code/the-hitchhikers-guide-to-the-code.github.io
+            pink-spider/.github,
+            pink-spider/pink-spider.github.io,
+            pink-spider/chainwell-privacy,
+            pink-spider/firedom-privacy,
+            pink-spider/nonogram-privacy,
+            pink-spider/sudoku-privacy,
+            pink-spider/timesheet-privacy,
+            level-up-together/.github,
+            level-up-together/docs,
+            level-up-together/dev.pink-spider.io,
+            pink-spider-atelier/.github,
+            the-hitchhikers-guide-to-the-code/the-hitchhikers-guide-to-the-code.github.io
 
           # Languages from GitHub's per-repo stats (no indepth clone analysis: it timed out in Jan 2026 and produced "Other")
           plugin_languages: yes
